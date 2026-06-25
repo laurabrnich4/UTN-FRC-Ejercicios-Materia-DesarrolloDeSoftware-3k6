@@ -5,7 +5,7 @@
 // Se define un array (lista) que simula una base de datos de usuarios registrados.
 // Cada usuario es un objeto con propiedades de email, password y name.
 const lstUsuarios = [
-    { email: 'laurabrnich4@gmail.com', password: '123', name: 'Laura' },
+    { email: 'usuarioComun@gmail.com', password: 'usuario123', name: 'Laura' },
 ]
 
 // ==========================================
