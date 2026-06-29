@@ -28,7 +28,7 @@ JSONPlaceholder/
 
 ## 💻 Instrucciones de Ejecución
 
-Para iniciar la aplicación en modo de desarrollo con autorecarga activa (gracias a "start": "node --watch index.js"), ejecuta en la terminal:
+Para iniciar la aplicación en modo de desarrollo con autorecarga activa (gracias a **"start": "node --watch index.js"**), ejecuta en la terminal:
 - npm start
 
-El script principal `(index.js)` se ejecutará, mostrando en la consola la *lista de usuarios con nombre, id, nombre de usuario y email* formateada y los *posts asociados al usuario* seleccionado mediante métodos del dominio.
+El script principal `(index.js)` se ejecutará, mostrando en la consola la **lista de usuarios con nombre, id, nombre de usuario y email** formateada y los **posts asociados al usuario** seleccionado mediante métodos del dominio.
