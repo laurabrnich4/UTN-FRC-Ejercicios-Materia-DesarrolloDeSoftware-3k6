@@ -25,33 +25,30 @@ La organización de archivos sigue las mejores prácticas de desarrollo backend:
 ├── package.json            # Configuración del proyecto y dependencias de npm
 └── package-lock.json       # Historial exacto de versiones de dependencias
 ```
-
 ---
 
 ## 🛠️ Tecnologías Utilizadas
-- **Node.js**: Entorno de ejecución para JavaScript en el servidor.
+   - **Node.js**: Entorno de ejecución para JavaScript en el servidor.
 
-- **Express**: Framework web rápido y minimalista para el manejo de rutas y middlewares.
+   - **Express**: Framework web rápido y minimalista para el manejo de rutas y middlewares.
 
    - **Sequelize**: ORM para interactuar con la base de datos mediante objetos de JavaScript en lugar de consultas SQL manuales.
 
    - **SQLite3**: Motor de base de datos relacional embebido que almacena los datos en un único archivo local (products.sqlite).
-
-
 
 ---
 
 ## 🚀 Instalación y Ejecución
 
 1. Instalar las dependencias del proyecto:
-   ```
-   npm install
+   npm install`
 
 2. Levantar el servidor local (el puerto por defecto es el 3000):
-   ```
-   node index.js
+   node index.js`
 
+```
 Nota: En el primer arranque, Sequelize creará automáticamente el archivo de la base de datos si este no existe.
+```
 
 ---
 
@@ -62,13 +59,13 @@ Nota: En el primer arranque, Sequelize creará automáticamente el archivo de la
 
 `POST /products` -> Registra un nuevo producto.
 
-Body (JSON):
+   Body (JSON):
 
-```
-    JSON
-    {
-    "nombre": "Nombre del Producto",
-    "precio": 1500.50,
-    "stock": 10
-    }
-```
+   ```
+      JSON
+      {
+      "nombre": "Nombre del Producto",
+      "precio": 1500.50,
+      "stock": 10
+      }
+   ```
