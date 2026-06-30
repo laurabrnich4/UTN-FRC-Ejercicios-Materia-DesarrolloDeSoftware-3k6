@@ -50,9 +50,7 @@ La organización de archivos sigue las mejores prácticas de desarrollo backend:
    node index.js
    ```
 
-```
 Nota: En el primer arranque, Sequelize creará automáticamente el archivo de la base de datos si este no existe.
-```
 
 ---
 
