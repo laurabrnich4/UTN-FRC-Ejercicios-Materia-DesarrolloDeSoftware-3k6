@@ -46,7 +46,9 @@ La organización de archivos sigue las mejores prácticas de desarrollo backend:
    ```
 
 2. Levantar el servidor local (el puerto por defecto es el 3000):
-   ```node index.js```
+   ```
+   node index.js
+   ```
 
 ```
 Nota: En el primer arranque, Sequelize creará automáticamente el archivo de la base de datos si este no existe.
