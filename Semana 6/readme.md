@@ -12,30 +12,30 @@ La organización de archivos sigue las mejores prácticas de desarrollo backend:
 
 ```text
 ├── data/
-│   ├── cnn-sequelize.js   # Configuración de la conexión del ORM Sequelize
-│   ├── db-init.js         # Inicialización nativa de SQLite3 (mantenimiento/historial)
-│   └── products.sqlite    # Archivo binario de la base de datos (se genera automáticamente)
+│   ├── cnn-sequelize.js    # Configuración de la conexión del ORM Sequelize
+│   ├── db-init.js          # Inicialización nativa de SQLite3 (mantenimiento/historial)
+│   └── products.sqlite     # Archivo binario de la base de datos (se genera automáticamente)
 ├── models/
-│   └── productos.js       # Definición del modelo 'Product' y sus campos en la BD
+│   └── productos.js        # Definición del modelo 'Product' y sus campos en la BD
 ├── services/
-│   └── products-service.js# Capa de servicios (Lógica de negocio y consultas CRUD)
-├── .gitignore             # Archivos y carpetas excluidos del control de versiones
-├── index.js               # Punto de entrada principal del servidor Express
-├── index_old.js           # Servidor HTTP nativo original (historial de desarrollo)
-├── package.json           # Configuración del proyecto y dependencias de npm
-└── package-lock.json      # Historial exacto de versiones de dependencias
+│   └── products-service.js # Capa de servicios (Lógica de negocio y consultas CRUD)
+├── .gitignore              # Archivos y carpetas excluidos del control de versiones
+├── index.js                # Punto de entrada principal del servidor Express
+├── index_old.js            # Servidor HTTP nativo original (historial de desarrollo)
+├── package.json            # Configuración del proyecto y dependencias de npm
+└── package-lock.json       # Historial exacto de versiones de dependencias
 ```
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
-- Node.js: Entorno de ejecución para JavaScript en el servidor.
+- **Node.js**: Entorno de ejecución para JavaScript en el servidor.
 
-- Express: Framework web rápido y minimalista para el manejo de rutas y middlewares.
+- **Express**: Framework web rápido y minimalista para el manejo de rutas y middlewares.
 
-* Sequelize: ORM para interactuar con la base de datos mediante objetos de JavaScript en lugar de consultas SQL manuales.
+   - **Sequelize**: ORM para interactuar con la base de datos mediante objetos de JavaScript en lugar de consultas SQL manuales.
 
-* SQLite3: Motor de base de datos relacional embebido que almacena los datos en un único archivo local (products.sqlite).
+   - **SQLite3**: Motor de base de datos relacional embebido que almacena los datos en un único archivo local (products.sqlite).
 
 
 
@@ -44,11 +44,11 @@ La organización de archivos sigue las mejores prácticas de desarrollo backend:
 ## 🚀 Instalación y Ejecución
 
 1. Instalar las dependencias del proyecto:
-   ```bash
+   ```
    npm install
 
 2. Levantar el servidor local (el puerto por defecto es el 3000):
-   ```bash
+   ```
    node index.js
 
 Nota: En el primer arranque, Sequelize creará automáticamente el archivo de la base de datos si este no existe.
